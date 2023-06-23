@@ -69,6 +69,10 @@
     filter();
   });
 
+  $(window).on('load', function() {
+    $('.isotope-wrapper .isotope-box').isotope('layout');
+  });
+
   lightbox.option({
     resizeDuration: 200,
     wrapAround: true
