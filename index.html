@@ -482,7 +482,7 @@ https://templatemo.com/tm-531-reflux
                     <div class="line-dec"></div>
                     <div class="left">
                         <p>
-                            Some selected recent publications. Please see <a href="https://scholar.google.com/citations?hl=zh-CN&user=3lr1jTgAAAAJ"> Google Scholar</a> <!-- <a href="https://www.andrew.cmu.edu/user/kunz1/"> Google Scholar</a> --> for details.
+                            Some selected recent publications. Please see <a href="https://scholar.google.com/citations?hl=zh-CN&user=3lr1jTgAAAAJ"> Google Scholar</a> for details.
                         </p>
                     </div>
                     <div class="left">
@@ -581,7 +581,8 @@ https://templatemo.com/tm-531-reflux
                                     Junlong Li*, <b>Guangyi Chen*</b>, Yansong Tang, Jinan Bao, Kun Zhang, Jie Zhou, Jiwen Lu,
                                     <a href="https://openreview.net/forum?id=RlPmWBiyp6w">GAIN: On the Generalization of Instructional Action Understanding</a>,
                                     <em>The Eleventh International Conference on Learning Representations (<strong>ICLR</strong>)</em>, 2023.
-                                    [Dataset][Code]
+                                    <a href="https://drive.google.com/drive/folders/1FDPUFA9fRA-15oeOztYuOAqcWexFyk_T?usp=sharing">[Dataset]</a>
+                                    <a href="https://jun-long-li.github.io/GAIN/">[Code]</a>
                                     <p></p>
                                 </li>
                                 <li style="margin: 5px;">
@@ -710,18 +711,18 @@ https://templatemo.com/tm-531-reflux
                     <script>
                     const list = document.getElementById("list");
                     let items = list.getElementsByTagName("li");
-                    if (items.length > 12) {
-                        for (let i = 12; i < items.length; i++) {
+                    if (items.length > 20) {
+                        for (let i = 20; i < items.length; i++) {
                             items[i].style.display = "none"
                         }
                     }
                     const toggleButton = document.getElementById("toggle-button");
                     toggleButton.addEventListener("click", function() {
-                        if (items.length > 12) {
-                            for (let i = 12; i < items.length; i++) {
+                        if (items.length > 20) {
+                            for (let i = 20; i < items.length; i++) {
                                 items[i].style.display = items[i].style.display === "none" ? "block" : "none";
                             }
-                            toggleButton.textContent = items[12].style.display === "none" ? "Show More" : "Show Less";
+                            toggleButton.textContent = items[20].style.display === "none" ? "Show More" : "Show Less";
                         }
                     });
                     </script>
