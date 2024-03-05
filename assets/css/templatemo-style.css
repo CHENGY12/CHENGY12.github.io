@@ -284,6 +284,15 @@ html {
 
 /* Section */
 
+.clustrmaps-align {
+    width: 55%; /* Adjust the width as needed */
+    right: 10%;
+    left: 35%;
+    position: relative;
+    margin-bottom: 50px; /* Instead of padding-bottom to avoid affecting the inside of the div */
+    text-align: center; /* This replaces the obsolete <center> tag */
+}
+
 .section {
     color: #fff;
     width: 55%;
