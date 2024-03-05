@@ -289,7 +289,7 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    margin-bottom: 50px; /* Instead of padding-bottom to avoid affecting the inside of the div */
+    margin-bottom: 10px; /* Instead of padding-bottom to avoid affecting the inside of the div */
     text-align: center; /* This replaces the obsolete <center> tag */
 }
 
